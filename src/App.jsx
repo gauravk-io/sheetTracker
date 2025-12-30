@@ -141,17 +141,49 @@ function App() {
       }}>
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                <div style={{ background: 'var(--accent-gradient)', padding: '0.5rem', borderRadius: '0.75rem', boxShadow: 'var(--shadow-glow)' }}>
-                    <Code2 color="white" size={24} />
-                </div>
-                <h1 style={{ fontSize: '1.5rem', fontWeight: '700', letterSpacing: '-0.025em' }}>
-                    DSA <span style={{ color: 'var(--accent-secondary)' }}>Tracker</span>
+                <img 
+                    src="/logo.png" 
+                    alt="Sheet Tracker Logo" 
+                    style={{ 
+                        width: '42px', 
+                        height: '42px', 
+                        borderRadius: '8px',
+                        objectFit: 'contain',
+                        filter: 'invert(1)'
+                    }} 
+                />
+                <h1 style={{ fontSize: '1.5rem', fontWeight: '800', letterSpacing: '-0.025em', display: 'flex', flexDirection: 'column', lineHeight: '1' }}>
+                    <span style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: 'var(--accent-secondary)', letterSpacing: '0.1em' }}>Ultimate</span>
+                    <span>Sheet Tracker</span>
                 </h1>
             </div>
             
-             <a href="https://github.com/gauravk-io" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-muted)', transition: 'color 0.2s' }}>
-                <Github size={24} />
-            </a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+                <a 
+                    href="https://youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&si=JNnnEBLVfrxXIpCj" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    style={{ color: 'var(--text-muted)', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem', fontWeight: '500' }}
+                    className="nav-link"
+                >
+                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                   <span style={{ display: 'none', '@media (min-width: 768px)': { display: 'inline' } }}>Playlist</span>
+                </a>
+                
+                <a 
+                    href="https://docs.google.com/spreadsheets/d/1T5-nGsJ9WNwna44e9WWRD0jlZIT5KxVOGvylcvvVrY8/edit?gid=0#gid=0" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    style={{ color: 'var(--text-muted)', transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem', fontWeight: '500' }}
+                    className="nav-link"
+                >
+                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                   <span style={{ display: 'none', '@media (min-width: 768px)': { display: 'inline' } }}>Sheet</span>
+                </a>
+                <a href="https://github.com/gauravk-io/sheetTracker" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-muted)', transition: 'color 0.2s' }}>
+                   <Github size={24} />
+                </a>
+            </div>
         </div>
       </header>
 
@@ -243,11 +275,15 @@ function App() {
                 onClick={areAllVisibleExpanded ? collapseAll : expandAll} 
                 className="btn" 
                 style={{ 
-                    background: 'var(--bg-tertiary)', 
+                    background: 'var(--bg-secondary)', 
+                    border: '1px solid var(--border-color)',
+                    borderRadius: 'var(--radius-md)',
+                    padding: '0.75rem 1rem',
                     color: 'var(--text-primary)', 
-                    fontSize: '0.85rem',
+                    fontSize: '0.9rem',
                     whiteSpace: 'nowrap',
-                    minWidth: '100px'
+                    minWidth: '100px',
+                    cursor: 'pointer'
                 }}
             >
                 {areAllVisibleExpanded ? 'Collapse All' : 'Expand All'}
