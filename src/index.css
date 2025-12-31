@@ -147,3 +147,44 @@ body {
     display: inline;
   }
 }
+
+.header-title-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.header-title-super {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--accent-secondary);
+  letter-spacing: 0.1em;
+}
+
+.header-title-main {
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .header-title-container {
+    font-size: 1.25rem;
+  }
+  .header-title-super {
+    font-size: 0.7rem;
+  }
+}
+
+.header-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .header-icons-container {
+    gap: 0.75rem;
+  }
+}

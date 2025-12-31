@@ -187,13 +187,13 @@ function App() {
                         filter: 'invert(1)'
                     }} 
                 />
-                <h1 style={{ fontSize: '1.5rem', fontWeight: '800', letterSpacing: '-0.025em', display: 'flex', flexDirection: 'column', lineHeight: '1' }}>
-                    <span style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: 'var(--accent-secondary)', letterSpacing: '0.1em' }}>Ultimate</span>
-                    <span>Sheet Tracker</span>
+                <h1 className="header-title-container">
+                    <span className="header-title-super">Ultimate</span>
+                    <span className="header-title-main">Sheet Tracker</span>
                 </h1>
             </div>
             
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+            <div className="header-icons-container">
                 <a 
                     href="https://youtube.com/playlist?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&si=JNnnEBLVfrxXIpCj" 
                     target="_blank" 
