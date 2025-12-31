@@ -294,7 +294,7 @@ function App() {
 
       <AuthModal isOpen={showAuthModal} onClose={() => setShowAuthModal(false)} />
 
-      <main className="container" style={{ padding: '2rem 1rem', flex: 1 }}>
+      <main className="container" style={{ padding: '.25rem 1rem 2rem', flex: 1 }}>
         <Stats total={totalProblems} completed={completedCount} />
 
         <div className="controls" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginBottom: '2rem', alignItems: 'center' }}>
