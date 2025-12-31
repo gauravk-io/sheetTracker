@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Menu, X, Github, Volume2, VolumeX, LogOut } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import React, { useState } from "react";
+import { Menu, X, Github, Volume2, VolumeX, LogOut } from "lucide-react";
+import { useAuth } from "../contexts/AuthContext";
 
 const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,19 +16,19 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         style={{
-          background: 'transparent',
-          border: 'none',
-          color: 'var(--text-muted)',
-          cursor: 'pointer',
-          padding: '0.5rem',
-          display: 'none',
-          alignItems: 'center',
-          justifyContent: 'center',
-          transition: 'color 0.2s'
+          background: "transparent",
+          border: "none",
+          color: "var(--text-muted)",
+          cursor: "pointer",
+          padding: "0.5rem",
+          display: "none",
+          alignItems: "center",
+          justifyContent: "center",
+          transition: "color 0.2s",
         }}
         className="hamburger-button"
-        onMouseEnter={(e) => e.target.style.color = 'var(--text-primary)'}
-        onMouseLeave={(e) => e.target.style.color = 'var(--text-muted)'}
+        onMouseEnter={(e) => (e.target.style.color = "var(--text-primary)")}
+        onMouseLeave={(e) => (e.target.style.color = "var(--text-muted)")}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
@@ -37,29 +37,29 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
         <>
           <div
             style={{
-              position: 'fixed',
+              position: "fixed",
               top: 0,
               left: 0,
               right: 0,
               bottom: 0,
-              background: 'rgba(0, 0, 0, 0.5)',
-              backdropFilter: 'blur(2px)',
-              zIndex: 998
+              background: "rgba(0, 0, 0, 0.5)",
+              backdropFilter: "blur(2px)",
+              zIndex: 998,
             }}
             onClick={() => setIsOpen(false)}
           />
           <div
             style={{
-              position: 'fixed',
-              top: '72px',
-              right: '1rem',
-              background: 'var(--bg-secondary)',
-              border: '1px solid var(--border-color)',
-              borderRadius: 'var(--radius-md)',
-              padding: '0.5rem',
+              position: "fixed",
+              top: "72px",
+              right: "1rem",
+              background: "var(--bg-secondary)",
+              border: "1px solid var(--border-color)",
+              borderRadius: "var(--radius-md)",
+              padding: "0.5rem",
               zIndex: 999,
-              minWidth: '200px',
-              boxShadow: 'var(--shadow-lg)'
+              minWidth: "200px",
+              boxShadow: "var(--shadow-lg)",
             }}
           >
             <a
@@ -67,23 +67,34 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                padding: '0.75rem 1rem',
-                color: 'var(--text-primary)',
-                textDecoration: 'none',
-                borderRadius: 'var(--radius-sm)',
-                transition: 'background 0.2s',
-                fontSize: '0.9rem',
-                fontWeight: '500'
+                display: "flex",
+                alignItems: "center",
+                gap: "0.75rem",
+                padding: "0.75rem 1rem",
+                color: "var(--text-primary)",
+                textDecoration: "none",
+                borderRadius: "var(--radius-sm)",
+                transition: "background 0.2s",
+                fontSize: "0.9rem",
+                fontWeight: "500",
               }}
-              onMouseEnter={(e) => e.target.style.background = 'var(--bg-tertiary)'}
-              onMouseLeave={(e) => e.target.style.background = 'transparent'}
+              onMouseEnter={(e) =>
+                (e.target.style.background = "var(--bg-tertiary)")
+              }
+              onMouseLeave={(e) => (e.target.style.background = "transparent")}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/>
-                <path d="m10 15 5-3-5-3z"/>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                <path d="m10 15 5-3-5-3z" />
               </svg>
               Playlist
             </a>
@@ -93,26 +104,37 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                padding: '0.75rem 1rem',
-                color: 'var(--text-primary)',
-                textDecoration: 'none',
-                borderRadius: 'var(--radius-sm)',
-                transition: 'background 0.2s',
-                fontSize: '0.9rem',
-                fontWeight: '500'
+                display: "flex",
+                alignItems: "center",
+                gap: "0.75rem",
+                padding: "0.75rem 1rem",
+                color: "var(--text-primary)",
+                textDecoration: "none",
+                borderRadius: "var(--radius-sm)",
+                transition: "background 0.2s",
+                fontSize: "0.9rem",
+                fontWeight: "500",
               }}
-              onMouseEnter={(e) => e.target.style.background = 'var(--bg-tertiary)'}
-              onMouseLeave={(e) => e.target.style.background = 'transparent'}
+              onMouseEnter={(e) =>
+                (e.target.style.background = "var(--bg-tertiary)")
+              }
+              onMouseLeave={(e) => (e.target.style.background = "transparent")}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                <polyline points="14 2 14 8 20 8"/>
-                <line x1="16" y1="13" x2="8" y2="13"/>
-                <line x1="16" y1="17" x2="8" y2="17"/>
-                <polyline points="10 9 9 9 8 9"/>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
               </svg>
               Sheet
             </a>
@@ -122,19 +144,21 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                padding: '0.75rem 1rem',
-                color: 'var(--text-primary)',
-                textDecoration: 'none',
-                borderRadius: 'var(--radius-sm)',
-                transition: 'background 0.2s',
-                fontSize: '0.9rem',
-                fontWeight: '500'
+                display: "flex",
+                alignItems: "center",
+                gap: "0.75rem",
+                padding: "0.75rem 1rem",
+                color: "var(--text-primary)",
+                textDecoration: "none",
+                borderRadius: "var(--radius-sm)",
+                transition: "background 0.2s",
+                fontSize: "0.9rem",
+                fontWeight: "500",
               }}
-              onMouseEnter={(e) => e.target.style.background = 'var(--bg-tertiary)'}
-              onMouseLeave={(e) => e.target.style.background = 'transparent'}
+              onMouseEnter={(e) =>
+                (e.target.style.background = "var(--bg-tertiary)")
+              }
+              onMouseLeave={(e) => (e.target.style.background = "transparent")}
             >
               <Github size={20} />
               GitHub
@@ -143,59 +167,73 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
             <button
               onClick={onToggleMute}
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                padding: '0.75rem 1rem',
-                color: 'var(--text-primary)',
-                background: 'transparent',
-                border: 'none',
-                borderRadius: 'var(--radius-sm)',
-                transition: 'background 0.2s',
-                fontSize: '0.9rem',
-                fontWeight: '500',
-                cursor: 'pointer',
-                width: '100%',
-                textAlign: 'left'
+                display: "flex",
+                alignItems: "center",
+                gap: "0.75rem",
+                padding: "0.75rem 1rem",
+                color: "var(--text-primary)",
+                background: "transparent",
+                border: "none",
+                borderRadius: "var(--radius-sm)",
+                transition: "background 0.2s",
+                fontSize: "0.9rem",
+                fontWeight: "500",
+                cursor: "pointer",
+                width: "100%",
+                textAlign: "left",
               }}
-              onMouseEnter={(e) => e.target.style.background = 'var(--bg-tertiary)'}
-              onMouseLeave={(e) => e.target.style.background = 'transparent'}
+              onMouseEnter={(e) =>
+                (e.target.style.background = "var(--bg-tertiary)")
+              }
+              onMouseLeave={(e) => (e.target.style.background = "transparent")}
             >
               {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
-              {isMuted ? 'Unmute' : 'Mute'}
+              {isMuted ? "Unmute" : "Mute"}
             </button>
 
-            <div style={{ height: '1px', background: 'var(--border-color)', margin: '0.5rem 0' }} />
+            <div
+              style={{
+                height: "1px",
+                background: "var(--border-color)",
+                margin: "0.5rem 0",
+              }}
+            />
 
             {user ? (
               <>
-                <div style={{
-                  padding: '0.75rem 1rem',
-                  fontSize: '0.8rem',
-                  color: 'var(--text-secondary)'
-                }}>
+                <div
+                  style={{
+                    padding: "0.75rem 1rem",
+                    fontSize: "0.8rem",
+                    color: "var(--text-secondary)",
+                  }}
+                >
                   {user.email}
                 </div>
                 <button
                   onClick={handleSignOut}
                   style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.75rem',
-                    padding: '0.75rem 1rem',
-                    color: 'var(--danger)',
-                    background: 'transparent',
-                    border: 'none',
-                    borderRadius: 'var(--radius-sm)',
-                    transition: 'background 0.2s',
-                    fontSize: '0.9rem',
-                    fontWeight: '500',
-                    cursor: 'pointer',
-                    width: '100%',
-                    textAlign: 'left'
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.75rem",
+                    padding: "0.75rem 1rem",
+                    color: "var(--danger)",
+                    background: "transparent",
+                    border: "none",
+                    borderRadius: "var(--radius-sm)",
+                    transition: "background 0.2s",
+                    fontSize: "0.9rem",
+                    fontWeight: "500",
+                    cursor: "pointer",
+                    width: "100%",
+                    textAlign: "left",
                   }}
-                  onMouseEnter={(e) => e.target.style.background = 'rgba(239, 68, 68, 0.1)'}
-                  onMouseLeave={(e) => e.target.style.background = 'transparent'}
+                  onMouseEnter={(e) =>
+                    (e.target.style.background = "rgba(239, 68, 68, 0.1)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.target.style.background = "transparent")
+                  }
                 >
                   <LogOut size={20} />
                   Sign Out
@@ -209,11 +247,11 @@ const HamburgerMenu = ({ isMuted, onToggleMute, onAuthClick }) => {
                 }}
                 className="btn btn-primary"
                 style={{
-                  width: '100%',
-                  padding: '0.75rem 1rem',
-                  fontSize: '0.9rem',
-                  fontWeight: '600',
-                  margin: '0.5rem 0'
+                  width: "100%",
+                  padding: "0.75rem 1rem",
+                  fontSize: "0.9rem",
+                  fontWeight: "600",
+                  margin: "0.5rem 0",
                 }}
               >
                 Sign In / Sign Up

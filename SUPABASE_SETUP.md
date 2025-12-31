@@ -27,6 +27,7 @@ This guide will help you set up Supabase authentication and database for the She
 ## Step 3: Configure Environment Variables
 
 1. In your project root, create a `.env` file (copy from `.env.example`):
+
    ```bash
    cp .env.example .env
    ```
@@ -119,6 +120,7 @@ If you want to test without email confirmation during development:
 ## Step 6: Test Your Setup
 
 1. Restart your development server:
+
    ```bash
    npm run dev
    ```
