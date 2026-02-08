@@ -14,6 +14,7 @@ import AuthModal from "./components/AuthModal";
 import AuthBanner from "./components/AuthBanner";
 import HamburgerMenu from "./components/HamburgerMenu";
 import UpdatePasswordModal from "./components/UpdatePasswordModal";
+import UpdateNotificationBanner from "./components/UpdateNotificationBanner";
 import problemData from "./data/index.js";
 import { useAuth } from "./contexts/AuthContext";
 import { useProgress } from "./hooks/useProgress";
@@ -48,7 +49,7 @@ function App() {
     setExpandedPatterns((prev) =>
       prev.includes(pattern)
         ? prev.filter((p) => p !== pattern)
-        : [...prev, pattern]
+        : [...prev, pattern],
     );
   };
 
@@ -142,7 +143,7 @@ function App() {
   const collapseAll = () => {
     const visiblePatterns = Object.keys(groupedProblems);
     setExpandedPatterns((prev) =>
-      prev.filter((p) => !visiblePatterns.includes(p))
+      prev.filter((p) => !visiblePatterns.includes(p)),
     );
   };
 
@@ -386,6 +387,8 @@ function App() {
       />
 
       <UpdatePasswordModal />
+
+      <UpdateNotificationBanner />
 
       <main
         className="container"
