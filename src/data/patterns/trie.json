@@ -5,7 +5,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
     "platform": "LeetCode",
-    "sequence": 22
+    "sequence": 18
   },
   {
     "pattern": "Trie",
@@ -13,7 +13,7 @@
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/index-pairs-of-a-string/",
     "platform": "LeetCode",
-    "sequence": 22
+    "sequence": 18
   },
   {
     "pattern": "Trie",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
     "platform": "LeetCode",
-    "sequence": 22
+    "sequence": 18
   },
   {
     "pattern": "Trie",
@@ -29,7 +29,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/extra-characters-in-a-string/",
     "platform": "LeetCode",
-    "sequence": 22
+    "sequence": 18
   },
   {
     "pattern": "Trie",
@@ -37,6 +37,6 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/search-suggestions-system/",
     "platform": "LeetCode",
-    "sequence": 22
+    "sequence": 18
   }
 ]

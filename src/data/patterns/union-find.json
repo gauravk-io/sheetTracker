@@ -5,7 +5,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/redundant-connection/",
     "platform": "LeetCode",
-    "sequence": 24
+    "sequence": 20
   },
   {
     "pattern": "Union Find",
@@ -13,7 +13,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/redundant-connection-ii/",
     "platform": "LeetCode",
-    "sequence": 24
+    "sequence": 20
   },
   {
     "pattern": "Union Find",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/number-of-provinces/",
     "platform": "LeetCode",
-    "sequence": 24
+    "sequence": 20
   },
   {
     "pattern": "Union Find",
@@ -29,7 +29,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/is-graph-bipartite/",
     "platform": "LeetCode",
-    "sequence": 24
+    "sequence": 20
   },
   {
     "pattern": "Union Find",
@@ -37,6 +37,6 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/path-with-minimum-effort/",
     "platform": "LeetCode",
-    "sequence": 24
+    "sequence": 20
   }
 ]

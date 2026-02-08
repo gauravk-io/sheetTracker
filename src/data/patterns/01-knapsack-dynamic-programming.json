@@ -5,7 +5,7 @@
     "difficulty": "Medium",
     "url": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/",
     "platform": "GeeksforGeeks",
-    "sequence": 20
+    "sequence": 16
   },
   {
     "pattern": "0/1 Knapsack (Dynamic Programming)",
@@ -13,7 +13,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
     "platform": "LeetCode",
-    "sequence": 20
+    "sequence": 16
   },
   {
     "pattern": "0/1 Knapsack (Dynamic Programming)",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://www.geeksforgeeks.org/subset-sum-problem-dp-25/",
     "platform": "GeeksforGeeks",
-    "sequence": 20
+    "sequence": 16
   },
   {
     "pattern": "0/1 Knapsack (Dynamic Programming)",
@@ -29,7 +29,7 @@
     "difficulty": "Hard",
     "url": "https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/",
     "platform": "GeeksforGeeks",
-    "sequence": 20
+    "sequence": 16
   },
   {
     "pattern": "0/1 Knapsack (Dynamic Programming)",
@@ -37,7 +37,7 @@
     "difficulty": "Hard",
     "url": "",
     "platform": "",
-    "sequence": 20
+    "sequence": 16
   },
   {
     "pattern": "0/1 Knapsack (Dynamic Programming)",
@@ -45,6 +45,6 @@
     "difficulty": "Hard",
     "url": "",
     "platform": "",
-    "sequence": 20
+    "sequence": 16
   }
 ]

@@ -1,0 +1,186 @@
+[
+  {
+    "pattern": "Binary Search",
+    "title": "Binary search basic",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/binary-search/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Upper Bound/ Ceiling",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "First and Last position",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Count number of occurences",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Search in infinite Sorted array",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Peak index in Mountain",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Find peak in mountain range",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-peak-element/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Find minimum in rotated sorted array",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Find number of rotations to sorted array",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/rotation4723/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Search in rotated sorted array",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "KOKO eating BANANAS",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/koko-eating-bananas/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Min num of days to make m bouquets",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Aggresive cows",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "H index 2",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/h-index-ii/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Max candies to k children",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Capacity to ship packages in d days",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Book Allocation Problem",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Split largest arrray",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/split-array-largest-sum/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Search 2 D matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "Search 2D matrix",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "kth smallest in sorted matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "kth smallest in multiplication matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/",
+    "platform": "LeetCode",
+    "sequence": 9
+  },
+  {
+    "pattern": "Binary Search",
+    "title": "median of 2 sorted arrays",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "platform": "LeetCode",
+    "sequence": 9
+  }
+]

@@ -5,7 +5,7 @@
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/valid-palindrome-ii/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   },
   {
     "pattern": "Greedy Algorithms",
@@ -13,7 +13,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   },
   {
     "pattern": "Greedy Algorithms",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   },
   {
     "pattern": "Greedy Algorithms",
@@ -29,7 +29,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/remove-duplicate-letters/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   },
   {
     "pattern": "Greedy Algorithms",
@@ -37,7 +37,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/largest-palindromic-number/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   },
   {
     "pattern": "Greedy Algorithms",
@@ -45,6 +45,6 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
     "platform": "LeetCode",
-    "sequence": 19
+    "sequence": 15
   }
 ]

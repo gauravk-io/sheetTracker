@@ -5,7 +5,7 @@
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/merge-similar-items/",
     "platform": "LeetCode",
-    "sequence": 25
+    "sequence": 21
   },
   {
     "pattern": "Ordered Set",
@@ -13,7 +13,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/132-pattern/",
     "platform": "LeetCode",
-    "sequence": 25
+    "sequence": 21
   },
   {
     "pattern": "Ordered Set",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/my-calendar-i/",
     "platform": "LeetCode",
-    "sequence": 25
+    "sequence": 21
   },
   {
     "pattern": "Ordered Set",
@@ -29,7 +29,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/my-calendar-ii/",
     "platform": "LeetCode",
-    "sequence": 25
+    "sequence": 21
   },
   {
     "pattern": "Ordered Set",
@@ -37,6 +37,6 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/my-calendar-iii/",
     "platform": "LeetCode",
-    "sequence": 25
+    "sequence": 21
   }
 ]

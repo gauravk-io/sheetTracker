@@ -5,7 +5,7 @@
     "difficulty": "Easy",
     "url": "",
     "platform": "",
-    "sequence": 16
+    "sequence": 14
   },
   {
     "pattern": "Bitwise XOR",
@@ -13,7 +13,7 @@
     "difficulty": "Medium",
     "url": "",
     "platform": "",
-    "sequence": 16
+    "sequence": 14
   },
   {
     "pattern": "Bitwise XOR",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "",
     "platform": "",
-    "sequence": 16
+    "sequence": 14
   },
   {
     "pattern": "Bitwise XOR",
@@ -29,6 +29,6 @@
     "difficulty": "Hard",
     "url": "",
     "platform": "",
-    "sequence": 16
+    "sequence": 14
   }
 ]

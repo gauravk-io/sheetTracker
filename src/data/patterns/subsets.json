@@ -5,7 +5,7 @@
     "difficulty": "Easy",
     "url": "https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG",
     "platform": "Other",
-    "sequence": 14
+    "sequence": 13
   },
   {
     "pattern": "Subsets",
@@ -13,7 +13,7 @@
     "difficulty": "Easy",
     "url": "https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr",
     "platform": "Other",
-    "sequence": 14
+    "sequence": 13
   },
   {
     "pattern": "Subsets",
@@ -21,7 +21,7 @@
     "difficulty": "Medium",
     "url": "https://www.educative.io/courses/grokking-the-coding-interview/B8R83jyN3KY",
     "platform": "Other",
-    "sequence": 14
+    "sequence": 13
   },
   {
     "pattern": "Subsets",
@@ -29,7 +29,7 @@
     "difficulty": "Medium",
     "url": "",
     "platform": "",
-    "sequence": 14
+    "sequence": 13
   },
   {
     "pattern": "Subsets",
@@ -37,7 +37,7 @@
     "difficulty": "Hard",
     "url": "",
     "platform": "",
-    "sequence": 14
+    "sequence": 13
   },
   {
     "pattern": "Subsets",
@@ -45,6 +45,6 @@
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/generalized-abbreviation/",
     "platform": "LeetCode",
-    "sequence": 14
+    "sequence": 13
   }
 ]

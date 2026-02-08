@@ -1,0 +1,138 @@
+[
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "kth smallest",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "kth largest",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "TOP K frequent Elements",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Top K frequent Words",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/top-k-frequent-words/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "K closest points to origin",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Find K closest elements",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-k-closest-elements/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Kth weakest row in Matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Merge K Sorted Arrays",
+    "difficulty": "Medium",
+    "url": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
+    "platform": "GeeksforGeeks",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Kth Smallest in Sorted Matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "LAST STONE WEIGHT",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/last-stone-weight/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "CPU Task Scheduler",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/task-scheduler/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Reorganize String",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/reorganize-string/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Min number of refueling stops",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/minimum-number-of-refueling-stops/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "IPO",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/ipo/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Course Scheduler 3",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/course-schedule-iii/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Find median in data stream",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  },
+  {
+    "pattern": "HEAP PATTERN",
+    "title": "Sliding Window Median",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/sliding-window-median/description/",
+    "platform": "LeetCode",
+    "sequence": 10
+  }
+]
