@@ -36,12 +36,13 @@ function App() {
   const [platformFilter, setPlatformFilter] = useState("All");
   const [randomProblem,setRandomProblem]=useState(null);
  const [isMuted, setIsMuted] = useState(() => {
-  return localStorage.getItem("dsa-tracker-muted") === "true";
-});
+    const saved = localStorage.getItem("dsa-tracker-muted");
+    return saved ? JSON.parse(saved) : false;
+  });
 
-useEffect(() => {
-  localStorage.setItem("dsa-tracker-muted", isMuted.toString());
-}, [isMuted]);
+  useEffect(() => {
+    localStorage.setItem("dsa-tracker-muted", JSON.stringify(isMuted));
+  }, [isMuted]);
 
   // State for expanded groups
   const [expandedPatterns, setExpandedPatterns] = useState(() => []);
