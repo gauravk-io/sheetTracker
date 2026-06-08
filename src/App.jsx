@@ -21,6 +21,7 @@ import { useProgress } from "./hooks/useProgress";
 
 import confetti from "canvas-confetti";
 import celebrationSound from "./assets/celebration.mp3";
+import ProblemRow from "./components/ProblemRow.jsx";
 
 function App() {
   const { user, signOut } = useAuth();
@@ -33,7 +34,8 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("All");
   const [platformFilter, setPlatformFilter] = useState("All");
-  const [isMuted, setIsMuted] = useState(() => {
+  const [randomProblem,setRandomProblem]=useState(null);
+ const [isMuted, setIsMuted] = useState(() => {
     const saved = localStorage.getItem("dsa-tracker-muted");
     return saved ? JSON.parse(saved) : false;
   });
@@ -139,6 +141,7 @@ function App() {
     });
   };
 
+
   // Collapse only the currently visible (filtered) patterns
   const collapseAll = () => {
     const visiblePatterns = Object.keys(groupedProblems);
@@ -146,6 +149,22 @@ function App() {
       prev.filter((p) => !visiblePatterns.includes(p)),
     );
   };
+
+  const getRandomProblem = () => {
+    const notCompletedProblems=filteredProblems.filter((p)=>!completedIds.includes(p.id))
+    if (notCompletedProblems.length==0) return
+    let random
+    do{
+      random = Math.floor(Math.random() * notCompletedProblems.length);
+
+    }while(randomProblem!=null&&notCompletedProblems.length>1&&randomProblem.id===random)
+    setRandomProblem(notCompletedProblems[random])
+
+  }
+
+  const getAllProblems = () => {
+    setRandomProblem(null);
+  }
 
   // Check if all visible patterns are expanded
   const areAllVisibleExpanded = useMemo(() => {
@@ -548,9 +567,50 @@ function App() {
           >
             {areAllVisibleExpanded ? "Collapse All" : "Expand All"}
           </button>
+          <button
+            onClick={getRandomProblem}
+            className="btn"
+            style={{
+              background: "var(--bg-secondary)",
+              border: "1px solid var(--border-color)",
+              borderRadius: "var(--radius-md)",
+              padding: "0.75rem 1rem",
+              color: "var(--text-primary)",
+              fontSize: "0.9rem",
+              whiteSpace: "nowrap",
+              minWidth: "100px",
+              cursor: "pointer",
+            }}
+          >
+            Random Problem
+          </button>
+          <button
+            onClick={getAllProblems}
+            className="btn"
+            style={{
+              background: "var(--bg-secondary)",
+              border: "1px solid var(--border-color)",
+              borderRadius: "var(--radius-md)",
+              padding: "0.75rem 1rem",
+              color: "var(--text-primary)",
+              fontSize: "0.9rem",
+              whiteSpace: "nowrap",
+              minWidth: "100px",
+              cursor: "pointer",
+            }}
+          >
+            All Problems
+          </button>
         </div>
 
-        <div className="patterns-list">
+        {randomProblem!=null? (<div>
+          <ProblemRow
+                        key={randomProblem.id}
+                        problem={randomProblem}
+                        isCompleted={completedIds.includes(randomProblem.id)}
+                        onToggle={toggleProblem}
+                      />
+        </div>) :(<div className="patterns-list">
           {sortedPatternKeys.length === 0 ? (
             <div
               style={{
@@ -578,7 +638,7 @@ function App() {
               );
             })
           )}
-        </div>
+        </div>)}
       </main>
 
       <footer
